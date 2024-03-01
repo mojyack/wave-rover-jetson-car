@@ -1,1 +1,0 @@
-bin/arduino-cli --config-file config.yaml lib install 'Adafruit SSD1306' 'INA219_WE'

@@ -21,6 +21,11 @@ sed "s|@WORKDIR@|$PWD|g" config.yaml.in > config.yaml
 ```
 bin/arduino-cli --config-file config.yaml core install esp32:esp32
 ```
+### install libraries
+```
+bin/arduino-cli --config-file config.yaml lib install "Adafruit SSD1306"
+bin/arduino-cli --config-file config.yaml lib install "INA219_WE"
+```
 
 ## build and flush the firmware
 ### connect wave rover to the host machine
