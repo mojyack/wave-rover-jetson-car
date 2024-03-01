@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body style="touch-action:none">
+    <div id="container">
+        <canvas id="left">LEFT</canvas> 
+        <div id="monitor">
+            <img src="snapshot.jpg?_=0" id="monitor_img"></img>
+        </div>
+        <canvas id="right">RIGHT</canvas> 
+    </div>
+    <div id="statusline">
+        <input id="monitor_interval_value" type="text" value="33" class="statusline">
+        <input id="monitor_interval_apply" type="button" value="apply" class="statusline" disabled>
+        <div id="fps" class="statusline">
+            fps: 0
+        </div>
+    </div>
+</body>
+</html>

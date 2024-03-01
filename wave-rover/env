@@ -1,0 +1,7 @@
+port=/dev/ttyUSB0
+export PYTHONPATH=$PWD/lib
+
+alias acli="bin/arduino-cli --config-file $PWD/config.yaml"
+alias amake="acli compile --fqbn esp32:esp32:esp32"
+alias aup="acli upload --fqbn esp32:esp32:esp32 -p $port"
+alias amon="acli monitor -p $port --config baudrate=115200"
