@@ -1,7 +1,9 @@
 #include "string.hpp"
 
 uint8_t read_byte() {
-    while(!Serial.available());
+    while(!Serial.available()) {
+        yield();
+    }
     return Serial.read();
 }
 
