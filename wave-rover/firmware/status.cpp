@@ -1,5 +1,6 @@
 #include <Arduino.h>
 
+#include "config.hpp"
 #include "screen.hpp"
 #include "vcm.hpp"
 
