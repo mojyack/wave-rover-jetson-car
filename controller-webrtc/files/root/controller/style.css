@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    font-size: 0;
+}
+
+#left, #monitor, #right {
+    display: inline-block;
+    zoom: 1;
+    vertical-align: top;
+    font-size: 12px;
+    height: 100%;
+}
+
+#left {
+    width: 25%;
+    background: black;
+}
+
+#monitor {
+    width: 50%;
+    background: white;
+}
+
+#right {
+    width: 25%;
+    background: black;
+}

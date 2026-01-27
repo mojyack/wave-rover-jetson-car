@@ -1,0 +1,7 @@
+[Service]
+Type=simple
+ExecStart=/root/run.sh
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,11 @@
+# on Raspberry Pi
+- install dependencies
+  - `pacman -S gst-python python-pyserial python-aiohttp`
+- copy files/
+- enable wave-rover.service
+
+# on controller device
+- connect to AP "wave-rover:password"
+- configure static IP to 192.168.1.2
+- access http://192.168.1.1:8000 with a browser
+

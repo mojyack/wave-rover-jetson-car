@@ -1,0 +1,11 @@
+[Match]
+Name=e*
+
+[Network]
+DHCP=ipv4
+
+[DHCP]
+RouteMetric=10
+
+[Address]
+Address=192.0.2.1/24
